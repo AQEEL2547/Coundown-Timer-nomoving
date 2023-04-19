@@ -1,0 +1,13 @@
+Add code in main-product.liquid file where ever you want 
+
+
+{% if product.handle == "your-product-handle" %}
+{% include 'countdown',
+
+  title: "BLACK FRIDAY SALE ENDS SOON! Order Now with Discounted Pricing",
+
+  end_date: "Nov 12, 2022 20:00:00"
+  
+%}
+
+{% endif %}
